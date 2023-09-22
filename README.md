@@ -64,7 +64,7 @@ It seems obvious to me that both projects on their own are doing the smart thing
 They just aren't compatible with each other.. without some extra effort.
 
 
-The reason I am writing it up, is the high quality [`embassy`]() libraries for embedded device programming make frequent use of `document-features` as a dependency, so my experiment with building embedded via flakes is currently failing.
+The reason I am writing it up, is the high quality [`embassy`](https://github.com/embassy-rs/embassy) libraries for embedded device programming make frequent use of `document-features` as a dependency, so my experiment with building embedded via flakes is currently failing.
 
 
 I have tried fiddling with `overrideScope'` to deactivate `cleanCargoToml` when the crate depends on `document-features`, but have not been successful.
