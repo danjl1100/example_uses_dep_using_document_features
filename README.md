@@ -68,7 +68,7 @@ The reason I am writing it up, is the high quality [`embassy`]() libraries for e
 
 
 I have tried fiddling with `overrideScope'` to deactivate `cleanCargoToml` when the crate depends on `document-features`, but have not been successful.
-```
+```patch
 -      craneLib = crane.lib.${system};
 +      craneLib = crane.lib.${system}.overrideScope' (final: prev: {
 +          cleanCargoToml = args: let
