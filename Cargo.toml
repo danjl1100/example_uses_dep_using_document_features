@@ -1,0 +1,9 @@
+[package]
+name = "the_bin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+example_uses_document_features = { git = "https://github.com/danjl1100/example_uses_document_features.git", version = "0.1.0" }
