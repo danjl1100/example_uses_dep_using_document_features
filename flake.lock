@@ -10,15 +10,16 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1695081215,
-        "narHash": "sha256-r2r4/aQwqXPnKyduPR6hkByeiJi00DFp6CXX1YtEL8k=",
-        "owner": "ipetkov",
+        "lastModified": 1696108246,
+        "narHash": "sha256-TcWFD4SWTO+mEj3lo/1ow+Z6J6RLtAArz/+reMxqsT8=",
+        "owner": "danjl1100",
         "repo": "crane",
-        "rev": "681ad0016630ded86c386a3dbcc13c702650ba08",
+        "rev": "0139e91e98f40bf22a47eac600b8a7a606dba9a5",
         "type": "github"
       },
       "original": {
-        "owner": "ipetkov",
+        "owner": "danjl1100",
+        "ref": "toml_edit",
         "repo": "crane",
         "type": "github"
       }

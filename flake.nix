@@ -3,7 +3,8 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
     crane = {
-      url = "github:ipetkov/crane";
+      # url = "github:ipetkov/crane";
+      url = "github:danjl1100/crane?ref=toml_edit";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
